@@ -4,11 +4,7 @@ let result;
 let age = 21;
 function checkDrinkingAge(age) {
   // TODO: Implement this function.
-  if (age >= 21) {
-    return 'true';
-  } else {
-    return 'false';
-  }
+  return age >= 21;
 }
 
 // DO NOT CHANGE ANYTHING BELOW THIS LINE.
